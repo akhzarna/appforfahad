@@ -26,8 +26,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-
-
 // 1st Step
  import { createStackNavigator } from 'react-navigation-stack';
  // authentication views
