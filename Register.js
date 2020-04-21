@@ -39,9 +39,9 @@ export default class Register extends React.Component {
   };
   }
 
-  _onPressButton = () => {
+  _onPressFlexViewController = () => {
 
-      this.props.navigation.navigate('Dashboard',{
+      this.props.navigation.navigate('FlexViewController',{
       rollnumber:1,
       others:'Akhzar Nazir',
       data:'My Data',
@@ -65,7 +65,7 @@ export default class Register extends React.Component {
 
   componentWillMount(){
 
-    alert('will mount');
+    // alert('will mount');
 
   }
 
@@ -109,8 +109,8 @@ render() {
             <View style={styles.sectionContainer}>
 
               <Button
-                onPress={this._onPressButton}
-                title="Submit Pressed"
+                onPress={this._onPressFlexViewController}
+                title="FlexViewController"
                 color="#841584"
               />
 
@@ -139,7 +139,7 @@ render() {
 
   componentDidMount(){
 
-alert('did mount');
+// alert('did mount');
 
   this.setState({flag:455});
 

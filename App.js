@@ -38,12 +38,14 @@ import {
  // Some More Screens
  import  Register  from "./Register";
  import  Dashboard  from "./Dashboard";
+ import  FlexViewController  from "./FlexViewController";
  import  Newcontroller  from "./Newcontroller";
  import  SectionListController  from "./SectionListController";
 
  const AuthNavigator = createStackNavigator({
      Register: { screen: Register },
      Dashboard: { screen: Dashboard },
+     FlexViewController: { screen: FlexViewController },
      Newcontroller: { screen: Newcontroller },
      SectionListController: { screen: SectionListController },
    },
